@@ -27,3 +27,11 @@ The functions `exec`, `passthru`, `shell_exec` and `system` are commonly disable
 
 ##PHP as a CGI Binary
 
+
+
+##Session Security
+
+###Session Fixation
+
+Some applications do not generate a new session ID for a user when authenticating them. Instead they allow an existing session ID to be used.
+
